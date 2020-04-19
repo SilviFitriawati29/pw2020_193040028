@@ -1,4 +1,4 @@
-<?php
+ <?php
 require 'functions.php';
 $mahasiswa = query("SELECT * FROM mahasiswa");
 ?>
@@ -12,6 +12,8 @@ $mahasiswa = query("SELECT * FROM mahasiswa");
 </head>
 <body>
   <h3><center> Daftar Mahasiswa </center> </h3>
+  <a href="tambah.php">Tambah Data Mahasiswa</a>
+  <br></body>
 
   <table border="1" cellpadding="10" cellspacing="0" >
     <tr>
