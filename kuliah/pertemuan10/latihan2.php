@@ -25,10 +25,9 @@ $mahasiswa = query("SELECT * FROM mahasiswa");
     </tr>
 
     <?php $i = 1;
-   foreach ($mahasiswa as $m) :
-    ?>
-    <tr>
-    <td><?= $i ?></td>
+    foreach ($mahasiswa as $m) : ?>
+      <tr>
+   <td><?= $i++; ?></td>
    <td><img src="img/hihi.jpg" width="50"></td>
    <td><?=$m['nrp'];?></td>
    <td><?=$m['nama'];?></td>
