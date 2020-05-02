@@ -2,7 +2,7 @@
 require 'functions.php';
 
 $id = $_GET['id'];
-$buku = query("SELECT * FROM buku WHERE id = $id")[0];
+$row = query("SELECT * FROM buku WHERE id = $id")[0];
 
 if (isset($_POST['ubah'])) {
   if (ubah($_POST) > 0) {
