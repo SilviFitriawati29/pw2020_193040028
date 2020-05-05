@@ -1,11 +1,7 @@
 <?php
 session_start();
 require 'functions.php';
-// melakukan pengecekan apakah user sudah melakukan login jika sudah redirect ke halaman admin
-if (isset($_SESSION['username'])) {
-  header("Location: admin.php");
-  exit;
-}
+
 // cek cookie
 if (isset($_COOKIE['username']) && isset($_COOKIE['hash'])) {
   $username = $_COOKIE['username'];
@@ -21,6 +17,11 @@ if (isset($_COOKIE['username']) && isset($_COOKIE['hash'])) {
     header("Location: admin.php");
     exit;
   }
+}
+// melakukan pengecekan apakah user sudah melakukan login jika sudah redirect ke halaman admin
+if (isset($_SESSION['username'])) {
+  header("Location: admin.php");
+  exit;
 }
 // login
 if (isset($_POST['submit'])) {
