@@ -1,0 +1,34 @@
+/*style*/
+body{
+	font:14px/18px arial,sans-serif;
+	font-color:white;
+	background-image:url(menu.png);
+}
+.header{
+padding: 20px;
+padding-bottom: 10px;
+}
+.header ul li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.header a{
+	text-decoration: none;
+	color:lightskyblue;
+	padding: 3px;
+
+}
+.content{
+	padding: 20px;
+}
+.footer {
+  background-color:lightskyblue;
+   padding:2px;
+
+}
+.footer {
+  background-color:lightskyblue;
+   padding:2px;
+
+}
