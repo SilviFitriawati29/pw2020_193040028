@@ -113,7 +113,7 @@ if (isset($_POST['cari'])) {
       <a class="nav-link">Featured </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link">|</a>
+      <a class="nav-link">||</a>
     </li>
     <li class="nav-item mr-5">
       <a class="nav-link">History</a>
