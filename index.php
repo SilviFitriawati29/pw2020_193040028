@@ -8,12 +8,12 @@
 
 <body>
 	<h1>
-		<marquee bgcolor="lightskyblue">SELAMAT DATANG </b></marquee>
+		<marquee bgcolor="lightskyblue">SELAMAT DATANG</b></marquee>
 	</h1>
 	<br>
-	<img src="logo.jpg" width="100" height="100">
+	
 	<div class="footer">
-		<p>UNTUK MEMPERMUDAH KALIAN DALAM MENGUNJUNGI HALAMAN WEB INI SILAHKAN KLIK TOMBOL DIBAWAH INI!!!</p>
+		<p><center>UNTUK MEMPERMUDAH KALIAN DALAM MENGUNJUNGI HALAMAN WEB SILVI FITRIAWATI SILAHKAN KLIK LINK DIBAWAH INI!!!</center></p>
 	</div>
 	<br>
 	<table border="6" align="center" width="65%" cellspacing="12" cellpadding="5" <tr bgcolor="white">
