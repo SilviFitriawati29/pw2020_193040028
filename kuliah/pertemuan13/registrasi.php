@@ -8,7 +8,7 @@ if (isset($_POST['registrasi'])) {
           document.location.href = 'login.php';
         </script>";
   } else {
-    echo 'user gagal ditambahkan!';
+    echo 'user gagal ditamahkan!';
   }
 }
 ?>

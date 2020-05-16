@@ -51,3 +51,5 @@ if (isset($_POST['login'])) {
     </ul>
   </form>
 </body>
+
+</html>
